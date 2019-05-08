@@ -1,0 +1,17 @@
+#moodchecker
+#happy, nervous, sad, exicted, relaxed
+
+mood=input("Please enter your current mood: ")
+
+if mood == "happy":
+    print("It is great to see you happy")
+elif mood == "nervous":
+    print("Take a deep breath 3 times.")
+elif mood == "sad":
+    print("Lighten up, life is good!")
+elif mood == "excited":
+    print("Perfect, let's do this!")
+elif mood == "relaxed":
+    print("I wish I could be as relaxed as you are")
+else:
+    print("I don't recognize this mood")
