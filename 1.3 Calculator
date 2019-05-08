@@ -1,0 +1,17 @@
+#Calculator for basic arithmetic operations
+
+print("Please enter two numbers and the operator for the calculation below:")
+number_1=float(input("Number 1: "))
+number_2=float(input("Number 2: "))
+operator=str(input("Operator (+,-,* or /): "))
+
+if operator=="+":
+    print(number_1+number_2)
+elif operator == "-":
+    print(number_1 - number_2)
+elif operator == "*":
+    print(number_1 * number_2)
+elif operator == "/":
+    print(number_1 / number_2)
+else:
+    print("Wrong operator! Could not perform calculation!")
