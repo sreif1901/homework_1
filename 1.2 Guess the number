@@ -1,0 +1,9 @@
+#Guess a random number
+secret=17
+guess=input("Guess the secret number: " )
+print("Your guess is: "+str(guess))
+
+if secret == int(guess):
+    print("Congratulations, you have correctly guessed the secret number "+str(secret)+"!")
+else:
+    print("Wrong, please play again!")
